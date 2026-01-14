@@ -1,0 +1,36 @@
+{
+  "name": "apartament",
+  "version": "1.0.0",
+  "description": "- Технологии\r SCSS\r - Начало работы",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fasRuslan/apartament.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fasRuslan/apartament/issues"
+  },
+  "homepage": "https://github.com/fasRuslan/apartament#readme",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^9.2.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.97.2"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

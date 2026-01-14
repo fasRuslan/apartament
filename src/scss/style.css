@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: Montserat;
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+
+.menu_item a {
+  width: 20%;
+  color: black;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts .contacts__title {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-right: 20px;
+}
+
+.header_phone a {
+  background: rgb(89, 82, 79);
+  color: white;
+  padding: 14px 27px;
+}
+
+.general .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.general__content {
+  width: 50%;
+}
+
+.general__image {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.general__image img {
+  height: 529px;
+}
+
+.general__image {
+  max-width: 100%;
+  height: auto;
+}
+
+.general .general__title {
+  font-weight: normal;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.general .general__subtitel {
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.general__btn {
+  background: rgb(89, 82, 79);
+  font-weight: light;
+  padding: 20px 40px;
+  color: white;
+}
+
+.aboutus {
+  margin-bottom: 40px;
+}
+
+.aboutus .aboutus__title {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: regular;
+  margin-bottom: 43px;
+}
+
+.aboutus .aboutus_img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.aboutus .aboutus__subtitle {
+  font-weight: 400px;
+  font-style: regular;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.advantages {
+  background: rgb(89, 82, 79);
+  color: white;
+  padding: 20px;
+}
+
+.advantages__title {
+  margin-bottom: 40px;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages__list .advantages__item {
+  border: 1px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 374px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages__list .advantages__item .advantages__item_title {
+  font-size: 70px;
+  margin-bottom: 15px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.advantages__list .advantages__item .advantages__item_subtitle {
+  text-align: center;
+}
+
+.projects {
+  padding-top: 20px;
+}
+
+.projects_title {
+  margin-bottom: 40px;
+}
+
+.projects__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects__item {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.projects__item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.kitchen_title {
+  font-size: 40px;
+  font-weight: regular;
+  margin-bottom: 30px;
+}
+
+.services__title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.services__item {
+  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 40px;
+}
+
+.services__item_title {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.services__item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
